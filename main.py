@@ -217,12 +217,12 @@ from itertools import filterfalse
 # print(divide(5,2))
 # print(subtract(10,9))
 
-# def create_name(first, last):
-#     first=first.capitalize()
-#     last=last.capitalize()
-#     return first+ " "+last
-# full_name=create_name("mr.","max")
-# print(full_name)
+def create_name(first, last):
+    first=first.capitalize()
+    last=last.capitalize()
+    return first+ " "+last
+full_name=create_name("mr.","max")
+print(full_name)
 
 def region(country="Bangladesh"):
     print(f"Philipp is from {country}")
